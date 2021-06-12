@@ -6,9 +6,10 @@
 package cuentas;
 
 /**
- *
  * @author hermo
+ * Ejercicio numero 4 de entornos de desarrollo donde uitilizaremos 
  */
+
 public class Deposito {
 
     /**
@@ -22,6 +23,7 @@ public class Deposito {
 
     }
     public static void operativa_cuenta(CCuenta cuenta1, double saldoActual){
+        float cantidad = 0;
         cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);//Cambiamos miCuenta por cuenta1
         saldoActual = cuenta1.estado();//Cambiamos miCuenta por cuenta1
         System.out.println("El saldo actual es"+ saldoActual );
